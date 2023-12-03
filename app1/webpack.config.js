@@ -5,10 +5,10 @@ const path = require("path");
 
 module.exports = {
   entry: "./src/index",
-  mode: "development",
+  mode: "production",
   devServer: {
     static: path.join(__dirname, "dist"),
-    port: 3001,
+    port: 80,
   },
   output: {
     publicPath: "auto",
