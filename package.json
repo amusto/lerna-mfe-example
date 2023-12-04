@@ -1,5 +1,6 @@
 {
   "name": "module-federation-example",
+  "version": "0.1.0",
   "private": true,
   "workspaces": {
     "packages": [
@@ -12,7 +13,7 @@
     "start": "lerna run --parallel start",
     "build": "lerna run build"
   },
-  "devDependencies": {
+  "dependencies": {
     "lerna": "^4.0.0"
   },
   "repository": {
